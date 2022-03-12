@@ -13,7 +13,6 @@ function Listing() {
 
                 </div>
             </div>
-            <MovieCard/>
         </>
     )
 }
