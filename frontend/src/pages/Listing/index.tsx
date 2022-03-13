@@ -2,12 +2,12 @@ import Pagination from "../../components/Pagination";
 import MovieCard from "../../components/MovieCard";
 import axios from "axios";
 import {useEffect, useState} from "react";
-import {Movie, MoviePage} from "../../types/movie";
+import {MoviePage} from "../../types/movie";
 import {BASE_URL} from "../../utils/requests";
 
 function Listing() {
 
-    const [pageNumber, setPageNumber] = useState(0);
+    const [pageNumber] = useState(0);
     const [page, setPage] = useState<MoviePage>({
         content: [],
         last: true,

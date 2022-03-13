@@ -49,9 +49,9 @@ function getFills(score: number) {
 }
 
 function Star({fill}: StarProps) {
-    if (fill == 1)
+    if (fill === 1)
         return (<StarFull/>);
-    else if (fill == 0.5)
+    else if (fill === 0.5)
         return (<StarHalf/>);
     else
         return (<StarEmpty/>);

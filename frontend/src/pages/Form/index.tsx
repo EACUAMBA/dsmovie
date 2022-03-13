@@ -1,5 +1,5 @@
 import "../../components/FormCard/style.css";
-import {Link, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import FormCard from "../../components/FormCard";
 
 function Form() {
